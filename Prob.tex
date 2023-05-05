@@ -188,4 +188,18 @@ The distribution of X is
             \binom{6}{0}(\frac{1}{2})^6 + \binom{6}{6}(\frac{1}{2})^6& i=6
         \end{cases}
     \end{align}
+The CDF of Random Variable X can be written as
+\begin{align}
+F_X(k)=\pr{X \leq k} =\sum_{i=0}^{k}\pr{X=i}
+    \end{align}
+Therefore,
+\begin{align}
+F_X(0)&=\pr{X=0}= \binom{6}{3}(\frac{1}{2})^6\\
+F_X(2)&=\sum_{i=0}^{2}\pr{X=i}= \binom{6}{3}(\frac{1}{2})^6 +\binom{6}{2}(\frac{1}{2})^6 + \binom{6}{4}(\frac{1}{2})^6\\
+F_X(4)&=\sum_{i=0}^{4}\pr{X=i} \nonumber
+\\&=\binom{6}{3}(\frac{1}{2})^6 +\binom{6}{2}(\frac{1}{2})^6 + \binom{6}{4}(\frac{1}{2})^6 +\binom{6}{1}(\frac{1}{2})^6 + \binom{6}{5}(\frac{1}{2})^6\\
+F_X(6)&=\sum_{i=0}^{6}\pr{X=i} \nonumber
+\\&=\binom{6}{3}(\frac{1}{2})^6 +\binom{6}{2}(\frac{1}{2})^6 + \binom{6}{4}(\frac{1}{2})^6 +\binom{6}{1}(\frac{1}{2})^6 + \binom{6}{5}(\frac{1}{2})^6\nonumber
+\\&+\binom{6}{0}(\frac{1}{2})^6 + \binom{6}{6}(\frac{1}{2})^6
+    \end{align}
 \end {document}
